@@ -7,9 +7,17 @@
     <title>Teste Imagem de Fundo</title>
     <style>
         body{
+            /*
             border: black dashed;
+            height: 100vh;
             background-image: url(imagens/wallpaper004.jpg);
-            background-position: top center;            
+            background-position: top center;
+            background-size: cover;  
+            background-attachment: fixed;
+            */
+            /* shorthand - color imagem position repeat attachment */
+            background: black url('imagens/wallpaper004.jpg') top center no-repeat fixed;          
+            background-size: cover;
         }
         .quadrado{
             display: inline-block;
